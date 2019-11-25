@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Amazon to Z-library
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.1
 // @description  Add link to libgen on all ebook products
 // @author       Niks
 // @match        https://www.amazon.*/*
@@ -32,7 +32,7 @@
         a.setAttribute("class", "a-button-text");
         a.setAttribute("target", "_blank");
         a.setAttribute("role", "button");
-        a.appendChild(document.createTextNode("Voir sur Z-library"));
+        a.appendChild(document.createTextNode("See on Z-library"));
 
         span2.appendChild(a);
 
