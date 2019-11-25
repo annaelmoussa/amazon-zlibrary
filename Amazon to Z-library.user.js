@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  Add link to libgen on all ebook products
-// @author       Niks
+// @author       Annaël
 // @match        https://www.amazon.*/*
 // @match        https://www.amazon.fr/*
 // @grant        none
