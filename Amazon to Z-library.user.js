@@ -16,7 +16,7 @@
     if (asin) {
 
         var button = document.querySelector("div.a-button-stack");
-        var name = document.querySelector("h1 > span#ebooksProductTitle");
+        var name = document.querySelector("h1 > span#ebooksProductTitle, h1 > span#productTitle");
         name = encodeURI(name.innerText.replace(/ *\([^)]*\) */g, ""))
 
         var span1 = document.createElement("span");
