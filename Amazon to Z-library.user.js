@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Amazon to Z-library
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  Add link to libgen on all ebook products
 // @author       Annael
 // @match        https://www.amazon.*/*
