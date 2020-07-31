@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.2
 // @description  Add link to libgen on all ebook products
-// @author       Annael
+// @author       Annael Moussa
 // @match        https://www.amazon.*/*
 // @match        https://www.amazon.fr/*
 // @grant        none
@@ -12,7 +12,7 @@
 (function() {
     'use strict';
 
-    var asin = document.getElementById("ASIN") || document.getElementsByName("ASIN.0")[0];
+    var asin = document.getElementsByName("ASIN.0")[0];
     if (asin) {
 
         var button = document.querySelector("div.a-button-stack");
