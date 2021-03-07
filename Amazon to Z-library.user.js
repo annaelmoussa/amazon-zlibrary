@@ -12,8 +12,6 @@
 (function() {
     'use strict';
 
-    var asin = document.getElementsByName("ASIN.0")[0];
-    if (asin) {
 
         var button = document.querySelector("div.a-button-stack");
         var name = document.querySelector("h1 > span#ebooksProductTitle, h1 > span#productTitle");
@@ -37,7 +35,6 @@
         span2.appendChild(a);
 
         button.appendChild(span1);
-    }
 
 
 })();
