@@ -4,8 +4,7 @@
 // @version      0.2
 // @description  Add link to libgen on all ebook products
 // @author       Annael Moussa
-// @match        https://www.amazon.*/*
-// @match        https://www.amazon.fr/*
+// @include      https://www.amazon.tld/*
 // @grant        none
 // ==/UserScript==
 
