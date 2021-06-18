@@ -26,7 +26,7 @@
         span1.appendChild(span2);
 
         var a = document.createElement("a");
-        a.setAttribute("href", "https://1lib.us/s/?q=" + name);
+        a.setAttribute("href", "https://b-ok.cc/s/" + name);
         a.setAttribute("class", "a-button-text");
         a.setAttribute("target", "_blank");
         a.setAttribute("role", "button");
