@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "Zlibrary",
+  "author": "Sthénos",
+  "version": "1.0",
+  "description": "This extension allows you to search for books directly from the Zlibrary site",
+  "icons": {
+    "48": "icons/book_48x48.png",
+    "96": "icons/book_96x96.png"
+  },
+  "browser_action": {
+    "browser_style": true,
+    "default_icon": {
+      "48": "icons/book_48x48.png",
+      "96": "icons/book_96x96.png"
+    },
+    "default_title": "Zlibrary"
+  },
+  "permissions": ["activeTab",
+    "tabs",
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": ["browser-polyfill.js",
+      "background.js"
+    ]
+  }
+}
