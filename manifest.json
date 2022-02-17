@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Zlibrary",
-  "author": "Sthénos",
+  "author": "Annaël Moussa Adamou",
   "version": "1.0",
   "description": "This extension allows you to search for books directly from the Zlibrary site",
   "icons": {
